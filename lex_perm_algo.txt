@@ -1,0 +1,20 @@
+0123456789
+0123456798
+0123456879
+0123456897
+0123456978
+0123456987
+0
+1023456789
+
+//Values at all positions are noted 
+//Everytime the right string changes, the position values are reset
+
+
+//Traverse list of numbers
+//Marker starts at second right most position in the string and stores value of this index
+//Parent algorithm checks for the smallest number which has not already been in this position
+//Whats the next smallest number that can go in that position that hasnt already been in that position
+//Base case two-digtit numbers: Its easy to order 79 -> 97 etc
+//The left substring needs to stay constant until the right substring has gone through all permutations
+//The marker is then moved to the next 
